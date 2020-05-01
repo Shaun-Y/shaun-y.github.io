@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1>Aliases</h1>
+<pre>
+alias ll="ls -la"
+alias gmd="git checkout develop && git pull && git checkout - && git merge develop"
+alias gpa="git remote prune origin && git branch --merged | egrep -v \"(^\*|master|dev)\" | xargs git branch -d"
+</pre>
+</body>
+</html>
